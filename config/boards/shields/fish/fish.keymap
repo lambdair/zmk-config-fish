@@ -94,35 +94,35 @@
 
         layer_base {
             bindings = <
-                        &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
-&kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
-            &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &lt 1 BSPC  &mt LCTRL RET       &mt RCTRL TAB &lt 2 SPACE 
+                        &kp COMMA   &kp Y       &kp DOT     &kp U               &kp G       &kp R       &kp K       &kp T       
+&kp Z       &kp A       &mt LGUI O  &mt LALT E  &mt LSHFT I &kp W               &kp S       &mt RSHFT H &mt RALT J  &mt RGUI L  &kp D       &kp M       
+            &kp Q       &kp C       &kp V       &kp X                                       &kp P       &kp N       &kp B       &kp F       
+                                                &lt 1 SPACE &mt LCTRL TAB       &mt RCTRL BSPC &lt 2 RET 
             >;
         };
 
         layer_math {
             bindings = <
-                        &kp N1      &kp N2      &kp N3      &trans              &kp CARET   &kp LT      &kp EQUAL   &kp GT      
-&kp TILDE   &kp N0      &mt LGUI N4 &mt LALT N5 &mt LSHFT N6 &kp DOT            &kp UNDER   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
-            &kp DLLR    &kp N7      &kp N8      &kp N9                                      &kp EXCL    &kp QMARK   &kp COLON   &kp SEMI    
-                                                &none       &trans              &trans      &lt 6 SPACE 
+                        &kp LT      &kp AT      &kp GT      &kp EQUAL           &kp PLUS    &kp N1      &kp N2      &kp N3      
+&none       &kp PIPE    &mt LGUI CARET &mt LALT PRCNT &mt LSHFT DLLR &kp MINUS  &kp FSLH    &mt RSHFT N4 &mt RALT N5 &mt RGUI N6 &kp N0     &none       
+            &kp UNDER   &kp HASH    &kp STAR    &kp AMPS                                    &kp N7      &kp N8      &kp N9      &none       
+                                                &none       &trans              &trans      &lt 6 RET   
             >;
         };
 
         layer_navi {
             bindings = <
-                        &kp LBKT    &kp DQT     &kp RBKT    &kp AMPS            &kp C_VOL_UP &kp ESC    &kp UP      &kp CAPS    
-&kp AT      &kp HASH    &mt LCTRL LPAR &mt LALT SQT &mt LSHFT RPAR &kp PIPE     &kp C_VOL_DN &kp LEFT   &kp DOWN    &kp RIGHT   &kp C_BRI_UP &kp PSCRN  
-            &kp BSLH    &kp LBRC    &kp GRAVE   &kp RBRC                                    &kp C_PREV  &kp C_PP    &kp C_NEXT  &kp C_BRI_DN 
-                                                &lt 6 BSPC  &trans              &trans      &none       
+                        &kp LBKT    &kp DQT     &kp RBKT    &kp COLON           &kp EXCL    &kp HOME    &kp UP      &kp PG_UP   
+&none       &kp TILDE   &mt LCTRL LPAR &mt LALT SQT &mt LSHFT RPAR &kp SEMI     &kp QMARK   &kp LEFT    &kp DOWN    &kp RIGHT   &kp ESC     &kp PSCRN   
+            &kp BSLH    &kp LBRC    &kp GRAVE   &kp RBRC                                    &kp END     &none       &kp PG_DN   &none       
+                                                &lt 6 SPACE &trans              &trans      &none       
             >;
         };
 
         layer_mac_base {
             bindings = <
                         &kp COMMA   &kp Y       &kp DOT     &kp U               &kp G       &kp R       &kp K       &kp T       
-&kp Z       &kp A       &kp O       &kp E       &kp I       &kp W               &kp S       &mt RSHFT H &mt RALT J  &mt RCTRL L &kp D       &kp M       
+&kp Z       &kp A       &mt LCTRL O &mt LALT E  &mt LSHFT I &kp W               &kp S       &mt RSHFT H &mt RALT J  &mt RCTRL L &kp D       &kp M       
             &kp Q       &kp C       &kp V       &kp X                                       &kp P       &kp N       &kp B       &kp F       
                                                 &lt 4 SPACE &mt LGUI TAB        &mt RGUI BSPC &lt 5 RET 
             >;
